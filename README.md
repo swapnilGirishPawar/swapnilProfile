@@ -109,9 +109,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📧 Contact
 
 - **Portfolio**: [Your Portfolio URL]
-- **GitHub**: [Your GitHub Profile]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [Your Email]
+- **GitHub**: [swapnilGirishPawar](https://github.com/swapnilGirishPawar)
+- **LinkedIn**: [swapnilgpawar](https://linkedin.com/in/swapnilgpawar)
+- **Email**: [swapnilgirishpawar@gmail.com](mailto:swapnilgirishpawar@gmail.com)
 
 ## 🙏 Acknowledgments
 
