@@ -44,6 +44,10 @@ SwapnilProfile/
 └── README.md              # This file
 ```
 
+## 🚀 Live Website
+
+**Your portfolio is live at:** [https://swapnilgirishpawar.github.io/swapnilProfile](https://swapnilgirishpawar.github.io/swapnilProfile)
+
 ## 🛠️ Setup & Installation
 
 ### Prerequisites
@@ -54,7 +58,7 @@ SwapnilProfile/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/SwapnilProfile.git
+   git clone https://github.com/swapnilGirishPawar/swapnilProfile.git
    cd SwapnilProfile
    ```
 
@@ -62,6 +66,9 @@ SwapnilProfile/
    - **Option 1**: Double-click `index.html` file
    - **Option 2**: Drag and drop `index.html` into your browser
    - **Option 3**: Use a local server (recommended for development)
+
+### Deployment
+For detailed deployment instructions, see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
 
 
 
@@ -108,7 +115,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-- **Portfolio**: [Your Portfolio URL]
+- **Portfolio**: [Live Website](https://swapnilgirishpawar.github.io/swapnilProfile)
 - **GitHub**: [swapnilGirishPawar](https://github.com/swapnilGirishPawar)
 - **LinkedIn**: [swapnilgpawar](https://linkedin.com/in/swapnilgpawar)
 - **Email**: [swapnilgirishpawar@gmail.com](mailto:swapnilgirishpawar@gmail.com)
