@@ -278,10 +278,14 @@ section {
   flex-direction: column;
 }
 
+
+
 .about-containers,
 .about-details-container {
   display: flex;
 }
+
+
 
 .about-pic {
   border-radius: 2rem;
@@ -344,13 +348,37 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
+  width: 12rem;
+  justify-content: flex-start;
+  align-items: center;
   gap: 0.5rem;
+}
+
+article > div {
+  flex: 1;
+  min-width: 0;
+}
+
+article h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  flex-shrink: 0;
+  margin: 0;
+  line-height: 1.2;
+}
+
+article p {
+  margin: 0;
+  line-height: 1.2;
 }
 
 article .icon {
   cursor: default;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 0.2rem;
 }
 
 /* PROJECTS SECTION */

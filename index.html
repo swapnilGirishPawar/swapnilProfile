@@ -10,18 +10,18 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Swapnil Pawar</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+          <li><a href="#experience" onclick="scrollToSection('experience')">Experience</a></li>
+          <li><a href="#projects" onclick="scrollToSection('projects')">Projects</a></li>
+          <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Swapnil Pawar</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -29,10 +29,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                      <li><a href="#about" onclick="scrollToSection('about'); toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="scrollToSection('experience'); toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="scrollToSection('projects'); toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="scrollToSection('contact'); toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -42,16 +42,16 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Swapnil Pawar</h1>
+        <p class="section__text__p2">Automation QA Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/Swapnil_Pawar_Resume_Website.pdf')"
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
@@ -60,13 +60,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="window.open('https://linkedin.com/in/swapnilgpawar', '_blank')"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="window.open('https://github.com/swapnilGirishPawar', '_blank')"
           />
         </div>
       </div>
@@ -91,7 +91,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>3+ years <br />Software Test Development</p>
             </div>
             <div class="details-container">
               <img
@@ -100,17 +100,20 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>MBA (Master of Business Administration)<br />BE (Bachelor of Engineering)</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              I'm a <strong>Software Test Engineer</strong> with <strong>3+ years</strong> of experience, specializing in <strong>test automation</strong> and <strong>quality assurance</strong>.
+            </p>
+            
+            <p>
+              My expertise includes <strong>Appium</strong>, <strong>Selenium</strong>, <strong>Robot Framework</strong>, and <strong>Postman API</strong> for creating scalable automation frameworks. I'm skilled in <strong>API testing</strong>, <strong>UI automation</strong>, and <strong>database management (SQL)</strong>.
+            </p>
+            
+            <p>
+              Proficient in <strong>Java</strong> and <strong>Python</strong> with strong <strong>OOP</strong> principles. Successfully delivered high-quality products through streamlined testing workflows and cross-functional team collaboration.
             </p>
           </div>
         </div>
@@ -119,7 +122,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="scrollToSection('experience')"
       />
     </section>
     <section id="experience">
@@ -128,7 +131,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Frontend Test Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -137,7 +140,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>UI Automation</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -148,7 +151,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h3>Selenium</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -159,7 +162,29 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
+                  <h3>Appium 2.0</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>iOS Automation</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BrowserStack</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -170,8 +195,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <h3>Manual Testing</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -181,8 +206,24 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Robot Framework</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Test Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>API Testing</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -192,14 +233,88 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
+                  <h3>Postman API</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SoapUI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Rest Assured</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CI/CD</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub Actions</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Business Analytics</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,18 +323,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
+                  <h3>Data Analysis</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -230,7 +334,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
+                  <h3>SQL</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -241,7 +345,40 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Visualization</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistical Analysis</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -253,7 +390,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="scrollToSection('projects')"
       />
     </section>
     <section id="projects">
@@ -265,15 +402,16 @@
             <div class="article-container">
               <img
                 src="./assets/project-1.png"
-                alt="Project 1"
+                alt="iOS Test Automation Framework"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">iOS Test Automation Framework</h2>
+            <p>Developed UI Test Automation Framework to streamline mobile app testing across platforms, ensuring improved stability and performance using Appium 2.0.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/swapnilGirishPawar/iOS-Scheduling-Automation-Fork'"
               >
                 Github
               </button>
@@ -289,11 +427,12 @@
             <div class="article-container">
               <img
                 src="./assets/project-2.png"
-                alt="Project 2"
+                alt="Test Automation Framework"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Test Automation Framework</h2>
+            <p>Developed and implemented robust test automation frameworks using Robot Framework, Python, and Appium, improving testing efficiency and reducing errors.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -313,11 +452,12 @@
             <div class="article-container">
               <img
                 src="./assets/project-3.png"
-                alt="Project 3"
+                alt="API Testing & Performance"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">API Testing & Performance</h2>
+            <p>Utilized Java, Postman API, and BrowserStack for UI Automation, API Testing, and Test Scripts, optimizing performance and identifying critical bugs.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -339,7 +479,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="scrollToSection('contact')"
       />
     </section>
     <section id="contact">
@@ -352,7 +492,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">swapnilgirishpawar@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +500,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://linkedin.com/in/swapnilgpawar">swapnilgpawar</a></p>
         </div>
       </div>
     </section>
@@ -368,14 +508,14 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+            <li><a href="#experience" onclick="scrollToSection('experience')">Experience</a></li>
+            <li><a href="#projects" onclick="scrollToSection('projects')">Projects</a></li>
+            <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Swapnil Pawar. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
