@@ -63,18 +63,7 @@ SwapnilProfile/
    - **Option 2**: Drag and drop `index.html` into your browser
    - **Option 3**: Use a local server (recommended for development)
 
-3. **Using a local server (optional but recommended)**
-   ```bash
-   # Using Python 3
-   python3 -m http.server 8000
-   
-   # Using Node.js (if you have it installed)
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
-   Then open `http://localhost:8000` in your browser
+
 
 ## 🎨 Customization
 
